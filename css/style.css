@@ -553,6 +553,29 @@ body {
   color: #92400e;
 }
 
+.review-explanation {
+  margin-top: 12px;
+  padding: 14px 16px;
+  background: #eff6ff;
+  border-left: 4px solid var(--primary);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.review-explanation-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--primary);
+  margin-bottom: 6px;
+}
+.review-explanation p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--gray-700);
+}
+
 /* ─── HISTORY VIEW ─── */
 .history-header {
   display: flex;

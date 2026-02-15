@@ -315,6 +315,7 @@
         correctAnswer: q.answer,
         userAnswer: userAnswer,
         isCorrect: userAnswer !== null && isCorrect,
+        explanation: q.explanation || '',
       };
     });
 
@@ -382,6 +383,13 @@
           })
           .join('');
 
+        const explanationHtml = q.explanation
+          ? `<div class="review-explanation">
+               <span class="review-explanation-label">Explanation</span>
+               <p>${q.explanation}</p>
+             </div>`
+          : '';
+
         return `
           <div class="review-item">
             <div class="review-q">
@@ -389,6 +397,7 @@
             </div>
             <span class="review-status ${statusClass}">${statusText}</span>
             ${optionsHtml}
+            ${explanationHtml}
           </div>`;
       })
       .join('');

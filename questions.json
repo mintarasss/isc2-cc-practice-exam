@@ -11,7 +11,8 @@
         "To optimize cloud resource allocation",
         "To enforce regulatory compliance in the cloud"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A cloud security group (CSG) acts as a virtual firewall that controls inbound and outbound traffic rules for cloud resources, making access control its primary purpose."
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
         "Symmetric encryption algorithms require fewer resources",
         "Asymmetric encryption algorithms are easier to implement"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "Symmetric encryption uses a single shared key for both encryption and decryption, making it significantly faster and more computationally efficient than asymmetric encryption, which relies on key pairs."
     },
     {
       "id": 3,
@@ -33,7 +35,8 @@
         "To generate random cryptographic keys",
         "To prevent unauthorized access to sensitive information"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "Digital signatures use asymmetric cryptography to verify that data has not been tampered with (integrity) and confirm the identity of the sender (authenticity), providing non-repudiation."
     },
     {
       "id": 4,
@@ -44,7 +47,8 @@
         "SSL/TLS",
         "VPN"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "HTTPS uses SSL/TLS (Secure Sockets Layer/Transport Layer Security) to encrypt communication between a web browser and a server, ensuring confidentiality and integrity of data in transit."
     },
     {
       "id": 5,
@@ -55,7 +59,8 @@
         "Predetermined software configurations",
         "Limited scalability options"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "While IaaS typically offers scalability, this question tests understanding of IaaS characteristics. IaaS provides virtualized computing resources over the internet, giving customers control over infrastructure while the provider manages physical hardware."
     },
     {
       "id": 6,
@@ -66,7 +71,8 @@
         "To optimize cloud resource utilization",
         "To automate software deployment processes"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A disaster recovery plan (DRP) focuses on restoring IT systems and ensuring critical business services remain available during and after a disaster, supporting business continuity objectives."
     },
     {
       "id": 7,
@@ -77,7 +83,8 @@
         "Hub",
         "Switch"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A router operates at Layer 3 (Network layer) of the OSI model and connects different networks together, including connecting a local area network (LAN) to a wide area network (WAN) such as the internet."
     },
     {
       "id": 8,
@@ -88,7 +95,8 @@
         "Software as a Service (SaaS)",
         "Function as a Service (FaaS)"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "PaaS provides a development environment and platform tools that allow developers to build and deploy applications without worrying about the underlying infrastructure such as servers, storage, and networking."
     },
     {
       "id": 9,
@@ -99,7 +107,8 @@
         "Phishing",
         "Side-channel"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "An on-path attack (also known as man-in-the-middle attack) involves an attacker positioning themselves between two communicating parties to intercept and potentially modify traffic in transit."
     },
     {
       "id": 10,
@@ -110,7 +119,8 @@
         "Network Access Control (NAC)",
         "Packet Filtering"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "Network Access Control (NAC) enforces security policies by authenticating and authorizing devices and users before granting them access to the network, ensuring only compliant endpoints connect."
     },
     {
       "id": 11,
@@ -121,7 +131,8 @@
         "23",
         "80"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "FTP (File Transfer Protocol) uses port 21 for control commands. Port 22 is SSH, port 23 is Telnet, and port 80 is HTTP. These are well-known ports in the range 0-1023."
     },
     {
       "id": 12,
@@ -132,7 +143,8 @@
         "OAuth (Open Authorization)",
         "LDAP (Lightweight Directory Access Protocol)"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "While not the most secure option, username and password remains the most commonly used authentication mechanism for accessing cloud resources from external networks. Multi-factor authentication should be added for stronger security."
     },
     {
       "id": 13,
@@ -143,7 +155,8 @@
         "80",
         "443"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "SSH (Secure Shell) uses port 22 by default. It provides encrypted remote access to systems, replacing the insecure Telnet protocol (port 23)."
     },
     {
       "id": 14,
@@ -154,7 +167,8 @@
         "To optimize cloud resource utilization",
         "To automate software deployment processes"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "Encryption in transit protects data confidentiality while it moves across networks, preventing eavesdropping and unauthorized disclosure. Protocols like TLS/SSL are commonly used for this purpose."
     },
     {
       "id": 15,
@@ -165,7 +179,8 @@
         "DOS/DDOS",
         "Virus"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "Phishing is a social engineering attack where an attacker sends fraudulent communications (typically email) that appear to come from a trusted source, attempting to trick users into revealing sensitive information like credentials."
     },
     {
       "id": 16,
@@ -176,7 +191,8 @@
         "FTPS",
         "TFTP"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "SFTP (SSH File Transfer Protocol) operates over SSH (port 22) to provide secure file transfer capabilities. Unlike FTPS which uses SSL/TLS, SFTP tunnels through the SSH protocol."
     },
     {
       "id": 17,
@@ -187,7 +203,8 @@
         "To increase profitability of the organization",
         "To prevent all types of disasters from occurring"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "Regular testing of a BCP validates that the plan works as expected and identifies gaps or weaknesses that need to be addressed. This ensures the organization is prepared when an actual disruption occurs."
     },
     {
       "id": 18,
@@ -198,7 +215,8 @@
         "To encrypt data stored in cloud databases",
         "To optimize cloud resource utilization"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A CASB sits between an organization's on-premises infrastructure and cloud services, providing visibility, compliance, data security, and threat protection by monitoring and controlling data traffic."
     },
     {
       "id": 19,
@@ -209,7 +227,8 @@
         "To optimize resource utilization during normal operations",
         "To increase profitability"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A BCP ensures that critical business functions can continue during and after a disaster or disruption. It focuses on maintaining operations, not preventing disasters, which is the role of risk mitigation."
     },
     {
       "id": 20,
@@ -220,7 +239,8 @@
         "Phishing",
         "Virus"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "A Denial of Service (DoS) or Distributed Denial of Service (DDoS) attack overwhelms a target with excessive traffic, exhausting resources and making the service unavailable to legitimate users."
     },
     {
       "id": 21,
@@ -231,7 +251,8 @@
         "Hybrid cloud",
         "Community cloud"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A private cloud provides dedicated infrastructure exclusively for a single organization, offering greater control over security, compliance, and customization compared to shared public cloud environments."
     },
     {
       "id": 22,
@@ -242,7 +263,8 @@
         "To encrypt data stored in cloud databases",
         "To optimize cloud resource allocation"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "CASBs act as intermediaries between users and cloud service providers, providing visibility into cloud usage, enforcing security policies, and controlling data traffic between on-premises and cloud environments."
     },
     {
       "id": 23,
@@ -253,7 +275,8 @@
         "To optimize cloud resource utilization",
         "To automate software deployment processes"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "Encryption in transit ensures that data remains confidential as it travels across networks, protecting it from interception and unauthorized disclosure by using protocols such as TLS."
     },
     {
       "id": 24,
@@ -264,7 +287,8 @@
         "TLS (Transport Layer Security)",
         "AES (Advanced Encryption Standard)"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "WPA2 is the standard security protocol for wireless networks, providing strong encryption using AES. While AES is an encryption algorithm, WPA2 is the protocol specifically designed for Wi-Fi network security."
     },
     {
       "id": 25,
@@ -275,7 +299,8 @@
         "By using sequence numbers",
         "By limiting access to the network"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "IPSec includes sequence numbers in each packet header, which allows the receiver to detect and reject duplicate or out-of-order packets, effectively preventing replay attacks where captured packets are retransmitted."
     },
     {
       "id": 26,
@@ -286,7 +311,8 @@
         "Hybrid cloud",
         "Community cloud"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "A hybrid cloud combines private and public cloud infrastructure, allowing organizations to keep sensitive data in a private cloud while leveraging the scalability and cost benefits of the public cloud for less sensitive workloads."
     },
     {
       "id": 27,
@@ -297,7 +323,8 @@
         "22",
         "80"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "Telnet uses port 23 for remote terminal access. It transmits data in plaintext, making it insecure. SSH (port 22) is the secure replacement for Telnet."
     },
     {
       "id": 28,
@@ -308,7 +335,8 @@
         "OAuth (Open Authorization)",
         "LDAP (Lightweight Directory Access Protocol)"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "OAuth is an open standard for token-based authorization that allows secure delegated access to cloud resources without sharing credentials. It is widely used for secure cloud access from external networks."
     },
     {
       "id": 29,
@@ -319,7 +347,8 @@
         "To monitor user activities and access patterns",
         "To restrict access to cloud resources based on users' roles and responsibilities"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "RBAC assigns permissions based on organizational roles rather than individual users. This implements the principle of least privilege by ensuring users only access resources necessary for their job functions."
     },
     {
       "id": 30,
@@ -330,7 +359,8 @@
         "To isolate sensitive workloads and data from potential threats",
         "To automate network provisioning processes"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "Network segmentation divides a network into smaller, isolated segments to contain security breaches and limit lateral movement. This helps protect sensitive workloads and data from unauthorized access."
     },
     {
       "id": 31,
@@ -341,7 +371,8 @@
         "HTTP",
         "SMB"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "Microsoft SQL Server uses port 1433, which falls in the registered port range (1024-49151). HTTP (port 80) and SMB (port 445) are well-known ports (0-1023). Registered ports are assigned by IANA for specific services."
     },
     {
       "id": 32,
@@ -352,7 +383,8 @@
         "To prevent physical access to network devices",
         "To monitor network traffic for compliance purposes"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A VPN creates an encrypted tunnel over the internet, allowing remote users and devices to securely connect to a private network as if they were directly connected to it, protecting data confidentiality in transit."
     },
     {
       "id": 33,
@@ -363,7 +395,8 @@
         "Software as a Service (SaaS)",
         "Function as a Service (FaaS)"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "SaaS delivers fully functional software applications over the internet on a subscription basis. Users access the application through a web browser without managing any underlying infrastructure or platform."
     },
     {
       "id": 34,
@@ -374,7 +407,8 @@
         "Network Layer",
         "Physical Layer"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "VPN connection stability issues typically relate to the Transport Layer (Layer 4), which handles reliable data transfer, session management, and connection-oriented protocols like TCP that maintain VPN tunnels."
     },
     {
       "id": 35,
@@ -385,7 +419,8 @@
         "MD5 (Message Digest Algorithm 5)",
         "SHA-256 (Secure Hash Algorithm 256-bit)"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "MD5 is a hashing algorithm that has been proven vulnerable to collision attacks, where two different inputs produce the same hash output. It is considered cryptographically broken and should not be used for digital signatures or security purposes."
     },
     {
       "id": 36,
@@ -396,7 +431,8 @@
         "To detect and block malicious traffic targeting cloud services",
         "To optimize cloud resource utilization"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "DDoS mitigation services are specifically designed to identify and filter out malicious traffic that attempts to overwhelm cloud services, ensuring legitimate users can continue to access the services."
     },
     {
       "id": 37,
@@ -407,7 +443,8 @@
         "Software as a Service (SaaS)",
         "Function as a Service (FaaS)"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "SaaS provides complete software applications accessible via the internet, with the provider managing all underlying infrastructure, platforms, and application maintenance."
     },
     {
       "id": 38,
@@ -418,7 +455,8 @@
         "Firewall",
         "Laptop"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "An endpoint is a user-facing device that connects to a network, such as a laptop, desktop, smartphone, or tablet. Routers and firewalls are network infrastructure devices, not endpoints."
     },
     {
       "id": 39,
@@ -429,7 +467,8 @@
         "DES (Data Encryption Standard)",
         "MD5 (Message Digest Algorithm 5)"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "AES is the most widely used symmetric encryption algorithm for protecting data in transit. It is used within TLS/SSL protocols and provides strong encryption with key sizes of 128, 192, or 256 bits."
     },
     {
       "id": 40,
@@ -440,7 +479,8 @@
         "An address used for internal network use only.",
         "An address used for documentation purposes only."
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "An IPv4 address is a 32-bit numerical address written in dotted decimal notation (e.g., 192.168.1.1). A 128-bit address describes IPv6, not IPv4."
     },
     {
       "id": 41,
@@ -451,7 +491,8 @@
         "DOS/DDOS",
         "Virus"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "Phishing attacks use deceptive emails or messages that impersonate legitimate organizations to trick users into revealing sensitive information. This is one of the most common social engineering techniques."
     },
     {
       "id": 42,
@@ -462,7 +503,8 @@
         "Dictionary attack",
         "Rainbow table attack"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "A MITM attack involves an attacker secretly intercepting and potentially altering communications between two parties who believe they are communicating directly. TLS/SSL certificates help prevent this attack."
     },
     {
       "id": 43,
@@ -473,7 +515,8 @@
         "Trojan",
         "Virus"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "Ransomware encrypts a victim's files or locks their system, then demands a ransom payment (often in cryptocurrency) for the decryption key. Regular backups and security awareness training are key defenses."
     },
     {
       "id": 44,
@@ -484,7 +527,8 @@
         "Transport Layer Security (TLS)",
         "Role-based access control (RBAC)"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "TLS encrypts data as it travels between cloud services and users' devices, ensuring confidentiality and integrity during transmission. It is the successor to SSL and is used in HTTPS connections."
     },
     {
       "id": 45,
@@ -495,7 +539,8 @@
         "Business impact analysis (BIA)",
         "Plan implementation"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "A Business Impact Analysis (BIA) identifies critical business functions, determines the impact of their disruption, and identifies the resources needed to support them, including recovery time objectives (RTOs) and recovery point objectives (RPOs)."
     },
     {
       "id": 46,
@@ -506,7 +551,8 @@
         "To optimize cloud resource utilization",
         "To automate software deployment processes"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "Encryption in transit protects data confidentiality while it is being transmitted across networks, preventing unauthorized parties from intercepting and reading the data."
     },
     {
       "id": 47,
@@ -517,7 +563,8 @@
         "To optimize cloud resource utilization",
         "To automate software deployment processes"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A disaster recovery plan in cloud computing focuses on ensuring that critical services and data can be restored and remain available during and after a disaster, minimizing downtime and data loss."
     },
     {
       "id": 48,
@@ -528,7 +575,8 @@
         "To generate random cryptographic keys",
         "To prevent buffer overflow attacks"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A digital certificate in PKI binds a public key to an identity (user, device, or organization), verified by a trusted Certificate Authority (CA). This authenticates the identity of the certificate holder."
     },
     {
       "id": 49,
@@ -539,7 +587,8 @@
         "Network layer",
         "Application layer"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "Intercepting network traffic to steal credentials typically involves attacks at the Data Link layer (Layer 2), such as ARP spoofing or MAC flooding, which allow an attacker to capture frames on the local network."
     },
     {
       "id": 50,
@@ -550,7 +599,8 @@
         "Encryption protocols",
         "Intrusion detection systems (IDS)"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "Cloud security certifications (such as SOC 2, ISO 27001, CSA STAR) provide independent verification that a cloud provider meets established security standards, helping customers verify the provider's integrity and trustworthiness."
     },
     {
       "id": 51,
@@ -561,7 +611,8 @@
         "RSA (Rivest-Shamir-Adleman)",
         "MD5 (Message Digest Algorithm 5)"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "AES is the industry standard symmetric encryption algorithm used in TLS/SSL to protect data in transit. DES is outdated, RSA is used for key exchange, and MD5 is a broken hashing algorithm."
     },
     {
       "id": 52,
@@ -572,7 +623,8 @@
         "Shared infrastructure for multiple organizations",
         "Full control over hardware and software configurations"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "In a public cloud, the infrastructure is shared among multiple tenants (organizations). The cloud provider owns and manages the resources, offering them on a pay-per-use basis to the public."
     },
     {
       "id": 53,
@@ -583,7 +635,8 @@
         "Layer 3",
         "Layer 4"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "Firewalls primarily operate at Layer 4 (Transport layer) of the TCP/IP stack, where they can filter traffic based on port numbers and protocol types (TCP/UDP), in addition to Layer 3 IP address filtering."
     },
     {
       "id": 54,
@@ -594,7 +647,8 @@
         "To make the passwords easier to crack",
         "To decrease the security of the hashing algorithm"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A salt is a random value added to a password before hashing, increasing entropy and ensuring that identical passwords produce different hashes. This defeats precomputed attacks like rainbow tables."
     },
     {
       "id": 55,
@@ -605,7 +659,8 @@
         "Distributed denial of service (DDoS) mitigation",
         "Security information and event management (SIEM)"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "RBAC restricts database access based on user roles, ensuring only authorized personnel can access sensitive data. It implements the principle of least privilege by granting minimum necessary permissions."
     },
     {
       "id": 56,
@@ -616,7 +671,8 @@
         "HTTP",
         "HTTPS"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "DNS (Domain Name System) uses port 53 for both TCP and UDP to resolve domain names to IP addresses. SMTP uses port 25, HTTP uses port 80, and HTTPS uses port 443."
     },
     {
       "id": 57,
@@ -627,7 +683,8 @@
         "Layer 5",
         "Layer 6"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "A ping flood attack targets Layer 3 (Network layer) by sending an overwhelming number of ICMP echo request (ping) packets to a target, consuming its bandwidth and processing resources."
     },
     {
       "id": 58,
@@ -638,7 +695,8 @@
         "Modification of network traffic",
         "All of the above"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "An IPSec replay attack can result in all three impacts: unauthorized access by replaying captured authentication packets, disruption of communication through injected traffic, and data modification by replaying altered packets."
     },
     {
       "id": 59,
@@ -649,7 +707,8 @@
         "Transport Layer Security (TLS)",
         "Role-based access control (RBAC)"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "TLS provides encryption for data in transit, establishing a secure channel between cloud services and user devices. It ensures both confidentiality and integrity of data during transmission."
     },
     {
       "id": 60,
@@ -660,7 +719,8 @@
         "To automate software deployment processes",
         "To monitor user activities and access patterns"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "MFA strengthens access control by requiring two or more verification factors (something you know, have, or are), significantly reducing the risk of unauthorized access even if one factor is compromised."
     },
     {
       "id": 61,
@@ -671,7 +731,8 @@
         "Private cloud",
         "Community cloud"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "A private cloud is dedicated exclusively to a single organization, providing greater control, customization, and security. It can be hosted on-premises or by a third-party provider."
     },
     {
       "id": 62,
@@ -682,7 +743,8 @@
         "To divide a network into smaller subnetworks for improved security and performance",
         "To monitor network traffic for compliance purposes"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "Network segmentation divides a network into smaller subnetworks (segments), which improves both security by limiting the blast radius of breaches and performance by reducing network congestion."
     },
     {
       "id": 63,
@@ -693,7 +755,8 @@
         "DES (Data Encryption Standard)",
         "MD5 (Message Digest Algorithm 5)"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "AES is the standard encryption algorithm for data at rest in cloud storage, offering strong security with 128, 192, or 256-bit key lengths. It is fast, efficient, and approved by NIST."
     },
     {
       "id": 64,
@@ -704,7 +767,8 @@
         "Trojan",
         "Ransomware"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "A Trojan disguises itself as legitimate software or hides within a seemingly harmless file to trick users into installing it. Unlike worms, Trojans require user action (like opening an attachment) to execute."
     },
     {
       "id": 65,
@@ -715,7 +779,8 @@
         "Network Layer",
         "Physical Layer"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "Cabling issues are a Physical Layer (Layer 1) problem. The Physical layer deals with the actual physical transmission of data through cables, connectors, electrical signals, and light pulses."
     },
     {
       "id": 66,
@@ -726,7 +791,8 @@
         "To optimize cloud resource utilization",
         "To automate software deployment processes"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "DLP solutions monitor, detect, and prevent unauthorized data transfers, ensuring sensitive information does not leave the organization's control. They help enforce data handling policies and protect against data breaches."
     },
     {
       "id": 67,
@@ -737,7 +803,8 @@
         "Network layer",
         "Transport layer"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "DDoS attacks typically target the Network Layer (Layer 3) by flooding the network with IP traffic, overwhelming the target's capacity to process legitimate network requests."
     },
     {
       "id": 68,
@@ -748,7 +815,8 @@
         "443",
         "22"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "SMTP (Simple Mail Transfer Protocol) uses port 25 for sending email. It is a well-known port in the range 0-1023 assigned by IANA."
     },
     {
       "id": 69,
@@ -759,7 +827,8 @@
         "Used for Web servers",
         "Used for inhouse or opensource applications"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "Registered ports (1024-49151) are assigned by IANA to specific vendor applications and services. Unlike well-known ports (0-1023) used by core protocols, registered ports serve proprietary applications."
     },
     {
       "id": 70,
@@ -770,7 +839,8 @@
         "Software as a Service (SaaS)",
         "Function as a Service (FaaS)"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "PaaS provides a complete development and deployment environment in the cloud, allowing developers to focus on building applications without managing servers, storage, or networking infrastructure."
     },
     {
       "id": 71,
@@ -781,7 +851,8 @@
         "Layer 3",
         "Layer 4"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "Port scanning targets Layer 4 (Transport layer) because it probes TCP and UDP ports to discover which services are running and potentially vulnerable on a target system."
     },
     {
       "id": 72,
@@ -792,7 +863,8 @@
         "Network Layer",
         "Data Link Layer"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "Inability to access a specific website is typically an Application Layer (Layer 7) issue, as web browsing involves HTTP/HTTPS protocols that operate at this layer. Issues could include DNS resolution, web server errors, or browser problems."
     },
     {
       "id": 73,
@@ -803,7 +875,8 @@
         "To monitor and control data traffic between on-premises and cloud environments",
         "To encrypt data stored in cloud databases"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "A CASB provides visibility, compliance, data protection, and threat detection by sitting between an organization's on-premises infrastructure and cloud services, monitoring and controlling all data traffic."
     },
     {
       "id": 74,
@@ -814,7 +887,8 @@
         "Hybrid cloud",
         "Community cloud"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A private cloud provides dedicated infrastructure for a single organization, offering enhanced security, privacy, and control over resources compared to multi-tenant public cloud environments."
     },
     {
       "id": 75,
@@ -825,7 +899,8 @@
         "To encrypt data stored in cloud databases",
         "To automate software deployment processes"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "CSPM tools continuously monitor cloud infrastructure for misconfigurations, compliance violations, and security risks. They automate the detection and remediation of security policy deviations across cloud environments."
     },
     {
       "id": 76,
@@ -836,7 +911,8 @@
         "Intrusion detection systems (IDS)",
         "Multi-factor authentication (MFA)"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "Data encryption at rest protects stored data by converting it into an unreadable format that can only be decrypted with the proper key. This ensures confidentiality even if the physical storage media is compromised."
     },
     {
       "id": 77,
@@ -847,7 +923,8 @@
         "To encrypt data stored in cloud databases",
         "To optimize cloud resource utilization"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "CASBs provide comprehensive visibility and control over data flowing between on-premises networks and cloud services, enabling enforcement of security policies, compliance monitoring, and threat protection."
     },
     {
       "id": 78,
@@ -858,7 +935,8 @@
         "To optimize resource utilization during normal operations",
         "To increase profitability"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A DRP outlines procedures to recover and restore IT systems and critical business operations after a disaster. Its goal is continuity, not prevention, of disasters."
     },
     {
       "id": 79,
@@ -869,7 +947,8 @@
         "Hybrid cloud",
         "Community cloud"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A private cloud dedicates all infrastructure to a single organization, providing maximum control over security, compliance, and customization of the computing environment."
     },
     {
       "id": 80,
@@ -880,7 +959,8 @@
         "SSH",
         "Telnet"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "HTTP (Hypertext Transfer Protocol) uses port 80 for unencrypted web traffic. HTTPS uses port 443 for encrypted web traffic. FTP uses port 21, SSH uses port 22, and Telnet uses port 23."
     },
     {
       "id": 81,
@@ -891,7 +971,8 @@
         "To optimize virtual machine performance",
         "To enforce strict access controls on cloud resources"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A VPC provides a logically isolated section within a public cloud where resources can be launched in a virtual network that you define, giving you control over IP addressing, subnets, and security settings."
     },
     {
       "id": 82,
@@ -902,7 +983,8 @@
         "To detect and block malicious traffic targeting cloud services",
         "To optimize cloud resource utilization"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "DDoS mitigation services detect and block malicious traffic floods targeting cloud services, using techniques like traffic scrubbing and rate limiting to ensure service availability for legitimate users."
     },
     {
       "id": 83,
@@ -913,7 +995,8 @@
         "Role-based access control (RBAC)",
         "Data encryption at rest"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "IDS monitors network traffic and system activities for suspicious behavior and known attack patterns, alerting security teams to potential security incidents so they can respond appropriately."
     },
     {
       "id": 84,
@@ -924,7 +1007,8 @@
         "To optimize cloud resource utilization",
         "To automate software deployment processes"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A disaster recovery plan ensures that critical services can be restored and remain available during and after a disruptive event, minimizing downtime and supporting business continuity."
     },
     {
       "id": 85,
@@ -935,7 +1019,8 @@
         "Network Layer",
         "Data Link Layer"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "Website access issues typically involve the Application Layer (Layer 7), where protocols like HTTP/HTTPS and DNS operate. The issue could be with the web application, DNS resolution, or browser configuration."
     },
     {
       "id": 86,
@@ -946,7 +1031,8 @@
         "Layer 4",
         "Layer 7"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "MITM attacks commonly target Layer 3 (Network layer) by intercepting and manipulating IP traffic between two communicating parties, often through techniques like ARP poisoning or IP spoofing."
     },
     {
       "id": 87,
@@ -957,7 +1043,8 @@
         "To encrypt data stored in cloud databases",
         "To optimize cloud resource utilization"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "CASBs provide critical visibility and control over data traffic between on-premises networks and cloud services, helping organizations enforce security policies and maintain compliance."
     },
     {
       "id": 88,
@@ -968,7 +1055,8 @@
         "Platform as a Service (PaaS)",
         "Function as a Service (FaaS)"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "IaaS provides virtualized computing resources like virtual machines, storage, and networking over the internet. Customers manage the OS and applications while the provider manages the physical infrastructure."
     },
     {
       "id": 89,
@@ -979,7 +1067,8 @@
         "To monitor user activities and access patterns",
         "To restrict access to cloud resources based on users' roles and responsibilities"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "RBAC restricts system access based on assigned organizational roles, ensuring users only have permissions necessary for their specific job functions, implementing the principle of least privilege."
     },
     {
       "id": 90,
@@ -990,7 +1079,8 @@
         "To optimize cloud resource utilization",
         "To protect data stored in cloud storage from unauthorized access"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "Encryption at rest specifically protects stored data by encrypting it on disk. Even if storage media is stolen or improperly accessed, the data remains unreadable without the decryption key."
     },
     {
       "id": 91,
@@ -1001,7 +1091,8 @@
         "Plan development and testing",
         "Plan implementation"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "Risk assessment is the phase where potential risks, threats, and vulnerabilities that could disrupt operations are identified and evaluated. This precedes the business impact analysis and plan development phases."
     },
     {
       "id": 92,
@@ -1012,7 +1103,8 @@
         "OAuth (Open Authorization)",
         "LDAP (Lightweight Directory Access Protocol)"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "OAuth provides a secure, token-based authorization framework that enables users to grant third-party access to cloud resources without sharing their credentials, making it ideal for external access scenarios."
     },
     {
       "id": 93,
@@ -1023,7 +1115,8 @@
         "To isolate workloads and data for security purposes",
         "To automate network provisioning processes"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "Network segmentation in cloud environments isolates different workloads and data into separate network segments, limiting lateral movement in case of a breach and providing better security controls."
     },
     {
       "id": 94,
@@ -1034,7 +1127,8 @@
         "Software as a Service (SaaS)",
         "Function as a Service (FaaS)"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "PaaS abstracts away the underlying infrastructure, providing developers with tools, middleware, and runtime environments to build and deploy applications without managing servers or networking."
     },
     {
       "id": 95,
@@ -1045,7 +1139,8 @@
         "To optimize cloud resource allocation",
         "To enforce regulatory compliance in the cloud"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A cloud security group functions as a virtual firewall for cloud instances, controlling inbound and outbound network traffic based on defined rules to manage access control for cloud resources."
     },
     {
       "id": 96,
@@ -1056,7 +1151,8 @@
         "Trojan",
         "Virus"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "Ransomware is a type of malware that encrypts victims' files and demands payment for the decryption key. Prevention includes regular backups, security updates, and user awareness training."
     },
     {
       "id": 97,
@@ -1067,7 +1163,8 @@
         "To encrypt data stored in cloud databases",
         "To optimize cloud resource utilization"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "CASBs serve as security enforcement points between cloud consumers and providers, offering visibility into cloud usage and the ability to monitor and control data traffic for security compliance."
     },
     {
       "id": 98,
@@ -1078,7 +1175,8 @@
         "To prevent replay attacks",
         "To authenticate the parties involved in the communication"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "A nonce (number used once) is a unique value included in cryptographic communications to ensure each message is unique. This prevents replay attacks, where an attacker retransmits captured valid messages."
     },
     {
       "id": 99,
@@ -1089,7 +1187,8 @@
         "Network layer",
         "Application layer"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "DNS spoofing targets the Application Layer (Layer 7) because DNS is an application-layer protocol. The attack manipulates DNS responses to redirect users to fraudulent websites."
     },
     {
       "id": 100,
@@ -1100,7 +1199,8 @@
         "Phishing",
         "Side-channel"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "An on-path attack (man-in-the-middle) involves intercepting communications between two parties. The attacker can eavesdrop, modify, or inject data into the traffic stream without either party's knowledge."
     },
     {
       "id": 101,
@@ -1111,7 +1211,8 @@
         "Multi-factor authentication (MFA)",
         "Role-based access control (RBAC)"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "SIEM systems collect, aggregate, and analyze log data from multiple sources to monitor user activities, detect anomalies, and provide comprehensive visibility into security events across cloud environments."
     },
     {
       "id": 102,
@@ -1122,7 +1223,8 @@
         "To monitor user activities and access patterns",
         "To restrict access to cloud resources based on users' roles and responsibilities"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "RBAC assigns permissions to roles rather than individual users, then assigns users to roles. This restricts access to only what is needed for each role, enforcing the principle of least privilege."
     },
     {
       "id": 103,
@@ -1133,7 +1235,8 @@
         "1024-49151",
         "none of the above"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "Dynamic or private ports range from 49152 to 65535. They are not assigned by IANA and are used for temporary connections. Well-known ports are 0-1023, and registered ports are 1024-49151."
     },
     {
       "id": 104,
@@ -1144,7 +1247,8 @@
         "Antivirus software",
         "Input validation mechanisms"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "Input validation mechanisms check that user input meets expected formats and sizes before processing, preventing buffer overflow attacks that exploit programs by sending more data than a buffer can hold."
     },
     {
       "id": 105,
@@ -1155,7 +1259,8 @@
         "Layer 4",
         "Layer 7"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "MAC flooding targets Layer 2 (Data Link layer) by overwhelming a switch's MAC address table with fake MAC addresses, causing it to broadcast traffic to all ports like a hub, enabling traffic interception."
     },
     {
       "id": 106,
@@ -1166,7 +1271,8 @@
         "To automate software deployment processes",
         "To monitor user activities and access patterns"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "MFA adds additional layers of verification beyond just a password, requiring users to provide multiple authentication factors. This significantly reduces the risk of unauthorized access from compromised credentials."
     },
     {
       "id": 107,
@@ -1177,7 +1283,8 @@
         "To allocate resources for routine maintenance tasks",
         "To provide guidelines and procedures for responding to and mitigating security incidents"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "An IRP provides structured procedures for detecting, responding to, and recovering from security incidents. It defines roles, responsibilities, and steps to minimize damage and restore normal operations."
     },
     {
       "id": 108,
@@ -1188,7 +1295,8 @@
         "To optimize cloud resource allocation",
         "To enforce regulatory compliance in the cloud"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "Cloud security groups act as virtual firewalls that define inbound and outbound traffic rules for cloud resources. Their primary function is managing access control at the network level."
     },
     {
       "id": 109,
@@ -1199,7 +1307,8 @@
         "To monitor user activities and access patterns",
         "To restrict access to cloud resources based on users' roles and responsibilities"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "RBAC provides access control by mapping permissions to organizational roles. Users are assigned roles that grant only the access necessary for their job, implementing least privilege."
     },
     {
       "id": 110,
@@ -1210,7 +1319,8 @@
         "Phishing",
         "Virus"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "DoS/DDoS attacks flood a target with excessive traffic to exhaust its resources, making services unavailable to legitimate users. DDoS uses multiple compromised systems to amplify the attack."
     },
     {
       "id": 111,
@@ -1221,7 +1331,8 @@
         "To detect and block malicious traffic targeting cloud services",
         "To optimize cloud resource utilization"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "DDoS mitigation services specifically detect and block malicious traffic aimed at overwhelming cloud services, using techniques such as traffic analysis, filtering, and rate limiting."
     },
     {
       "id": 112,
@@ -1232,7 +1343,8 @@
         "Trojan",
         "Ransomware"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "A Trojan masquerades as a legitimate or harmless file to trick users into executing it. In this case, the email attachment appears trustworthy but contains hidden malicious software."
     },
     {
       "id": 113,
@@ -1243,7 +1355,8 @@
         "Hybrid cloud",
         "Community cloud"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "A hybrid cloud integrates private and public cloud resources, allowing organizations to balance between the security of private cloud and the scalability and cost-efficiency of public cloud."
     },
     {
       "id": 114,
@@ -1254,7 +1367,8 @@
         "Shared infrastructure for multiple organizations",
         "Full control over hardware and software configurations"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "Public clouds use shared multi-tenant infrastructure where resources are provisioned to multiple organizations from the same pool of computing resources, managed by the cloud service provider."
     },
     {
       "id": 115,
@@ -1265,7 +1379,8 @@
         "Data encryption at rest",
         "Network segmentation"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "MFA requires additional verification factors beyond just credentials, so even if a password is stolen or compromised, the attacker cannot gain access without the additional authentication factor."
     },
     {
       "id": 116,
@@ -1276,7 +1391,8 @@
         "Network layer",
         "Transport layer"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "DDoS attacks commonly target Layer 3 (Network layer) by overwhelming the network with IP-based traffic, consuming bandwidth and processing resources needed for legitimate communication."
     },
     {
       "id": 117,
@@ -1287,7 +1403,8 @@
         "To monitor and control data traffic between on-premises and cloud environments",
         "To encrypt data stored in cloud databases"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "CASBs are deployed between on-premises infrastructure and cloud services to provide visibility, data security, threat protection, and compliance enforcement for all cloud-bound data traffic."
     },
     {
       "id": 118,
@@ -1298,7 +1415,8 @@
         "Layer 6",
         "Layer 7"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "A SYN flood attack targets Layer 4 (Transport layer) by exploiting the TCP three-way handshake. The attacker sends many SYN requests without completing the handshake, exhausting the server's connection resources."
     },
     {
       "id": 119,
@@ -1309,7 +1427,8 @@
         "Data encryption at rest",
         "Network segmentation"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "MFA provides defense against credential theft by requiring additional authentication factors. Even with compromised passwords, attackers cannot access resources without the second factor."
     },
     {
       "id": 120,
@@ -1320,7 +1439,8 @@
         "DES (Data Encryption Standard)",
         "MD5 (Message Digest Algorithm 5)"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "AES is the predominant symmetric encryption algorithm used within TLS to protect data in transit. It provides fast, efficient, and strong encryption for communication between cloud services and clients."
     },
     {
       "id": 121,
@@ -1331,7 +1451,8 @@
         "Network Layer",
         "Physical Layer"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "VPN frequent disconnects point to the Transport Layer (Layer 4), which manages session establishment and reliability. TCP connection issues at this layer can cause VPN tunnel instability."
     },
     {
       "id": 122,
@@ -1342,7 +1463,8 @@
         "Software as a Service (SaaS)",
         "Function as a Service (FaaS)"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "SaaS delivers complete software applications over the internet that users access through a browser. The provider manages everything from infrastructure to application maintenance and updates."
     },
     {
       "id": 123,
@@ -1353,7 +1475,8 @@
         "OAuth (Open Authorization)",
         "LDAP (Lightweight Directory Access Protocol)"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "OAuth is widely used for secure external access to cloud resources. It allows authorization without sharing credentials by using access tokens, making it ideal for third-party cloud service integrations."
     },
     {
       "id": 124,
@@ -1364,7 +1487,8 @@
         "Network Layer",
         "Physical Layer"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "Cabling problems are Physical Layer (Layer 1) issues. This layer encompasses all physical transmission media including cables, connectors, and the electrical or optical signals they carry."
     },
     {
       "id": 125,
@@ -1375,7 +1499,8 @@
         "An address used for internal network use only.",
         "An address used for documentation purposes only."
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "IPv4 addresses are 32-bit addresses expressed in dotted decimal notation (e.g., 192.168.1.1), providing approximately 4.3 billion unique addresses. IPv6 uses 128-bit addresses."
     },
     {
       "id": 126,
@@ -1386,7 +1511,8 @@
         "Role-based access control (RBAC)",
         "Data encryption at rest"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "IDS monitors systems and networks for signs of malicious activity or policy violations. When suspicious activity is detected, the IDS generates alerts enabling security teams to respond to potential incidents."
     },
     {
       "id": 127,
@@ -1397,7 +1523,8 @@
         "Distributed denial of service (DDoS) mitigation",
         "Security information and event management (SIEM)"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "RBAC controls who can access specific database resources based on assigned roles, effectively preventing unauthorized users from accessing sensitive data by enforcing the least privilege principle."
     },
     {
       "id": 128,
@@ -1408,7 +1535,8 @@
         "To monitor and control data traffic between on-premises and cloud environments",
         "To encrypt data stored in cloud databases"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "CASBs are security policy enforcement points positioned between on-premises infrastructure and cloud providers, providing comprehensive monitoring and control of all data traffic to and from cloud services."
     },
     {
       "id": 129,
@@ -1419,7 +1547,8 @@
         "Hybrid cloud",
         "Community cloud"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "Private cloud infrastructure is provisioned exclusively for one organization, providing enhanced security, control, and compliance capabilities compared to shared public cloud environments."
     },
     {
       "id": 130,
@@ -1430,7 +1559,8 @@
         "1024-49151",
         "none of the above"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "Well-known ports range from 0 to 1023 and are assigned by IANA for commonly used protocols such as HTTP (80), HTTPS (443), FTP (21), SSH (22), and DNS (53)."
     },
     {
       "id": 131,
@@ -1441,7 +1571,8 @@
         "To encrypt data transmitted over the network",
         "To prevent physical access to network devices"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "A firewall monitors and controls network traffic based on predefined security rules, acting as a barrier between trusted internal networks and untrusted external networks to block unauthorized access."
     },
     {
       "id": 132,
@@ -1452,7 +1583,8 @@
         "Dedicated infrastructure for a single organization",
         "Full control over hardware and software configurations"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "A private cloud provides dedicated infrastructure for a single organization. While it may also offer full control over configurations, the defining characteristic is the dedicated, single-tenant infrastructure."
     },
     {
       "id": 133,
@@ -1463,7 +1595,8 @@
         "DES (Data Encryption Standard)",
         "MD5 (Message Digest Algorithm 5)"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "AES is the industry standard for encrypting data at rest, recommended by NIST and widely adopted by cloud providers for its strong security and efficient performance."
     },
     {
       "id": 134,
@@ -1474,7 +1607,8 @@
         "An address that denotes the vendor or manufacturer of the physical network interface",
         "A logical address associated with a unique network interface within the network"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "An IP address is a logical (not physical) address assigned to a network interface. Unlike MAC addresses (which identify hardware manufacturers), IP addresses are logically assigned and can change."
     },
     {
       "id": 135,
@@ -1485,7 +1619,8 @@
         "A switch can create separate broadcast domains when used to create VLANs.",
         "A switch retransmits traffic to all devices, while a switch routes traffic to a specific device."
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "The key difference is that a hub broadcasts all traffic to every connected device, while a switch intelligently forwards traffic only to the specific destination device using MAC addresses, improving network efficiency."
     },
     {
       "id": 136,
@@ -1496,7 +1631,8 @@
         "hub",
         "router"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "A switch controls traffic flow on a network by using MAC addresses to forward frames only to the appropriate destination port, rather than broadcasting to all ports like a hub."
     },
     {
       "id": 137,
@@ -1507,7 +1643,8 @@
         "POP3S",
         "All of the above"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "All three protocols provide secure email: SMTPS (secure email sending), IMAPS (secure email retrieval with server sync), and POP3S (secure email retrieval with download). Each adds SSL/TLS encryption to its base protocol."
     },
     {
       "id": 138,
@@ -1518,7 +1655,8 @@
         "Response and mitigation",
         "Recovery and post-incident activities"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "The Response and Mitigation phase focuses on containing the incident to prevent further damage and implementing countermeasures. This follows detection and analysis, and precedes recovery activities."
     },
     {
       "id": 139,
@@ -1529,7 +1667,8 @@
         "Layer 7",
         "Layer 8"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "Buffer overflow attacks target Layer 7 (Application layer) because they exploit vulnerabilities in software applications by sending more data than a buffer can handle, potentially allowing code execution."
     },
     {
       "id": 140,
@@ -1540,7 +1679,8 @@
         "Ownership of physical infrastructure",
         "Compliance with industry regulations"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "The shared responsibility model defines how security duties are divided between the cloud provider (responsible for security 'of' the cloud) and the customer (responsible for security 'in' the cloud)."
     },
     {
       "id": 141,
@@ -1551,7 +1691,8 @@
         "To isolate workloads and data for security purposes",
         "To automate network provisioning processes"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "Network segmentation creates isolated network zones that contain workloads and data, limiting the attack surface and preventing lateral movement if one segment is compromised."
     },
     {
       "id": 142,
@@ -1562,7 +1703,8 @@
         "By improving network security",
         "By simplifying network management"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "Subnetting divides a large network into smaller broadcast domains, reducing the amount of broadcast traffic each device receives. This reduces network congestion and improves overall performance."
     },
     {
       "id": 143,
@@ -1573,7 +1715,8 @@
         "Software as a Service (SaaS)",
         "Function as a Service (FaaS)"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "SaaS provides fully managed software applications delivered over the internet. Users simply access the application without managing any infrastructure, platform, or software maintenance."
     },
     {
       "id": 144,
@@ -1584,7 +1727,8 @@
         "446",
         "22"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "HTTPS (HTTP Secure) uses port 443 by default. It combines HTTP with TLS/SSL encryption to provide secure web communication. Port 80 is used for unencrypted HTTP."
     },
     {
       "id": 145,
@@ -1595,7 +1739,8 @@
         "Distributed denial of service (DDoS) mitigation",
         "Security information and event management (SIEM)"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "RBAC prevents unauthorized access to cloud databases by assigning permissions based on user roles. Only users with the appropriate role can access specific data, enforcing least privilege."
     },
     {
       "id": 146,
@@ -1606,7 +1751,8 @@
         "Data encryption at rest",
         "Network segmentation"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "MFA is the most effective defense against compromised credentials because it requires additional verification factors that an attacker is unlikely to possess, even if they have stolen a password."
     },
     {
       "id": 147,
@@ -1617,7 +1763,8 @@
         "To optimize cloud resource utilization",
         "To automate software deployment processes"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "Network encryption protects data confidentiality during transmission, ensuring that intercepted data cannot be read by unauthorized parties. This is essential for protecting sensitive data traversing cloud networks."
     },
     {
       "id": 148,
@@ -1628,7 +1775,8 @@
         "To enforce regulatory compliance",
         "To restrict access to cloud resources based on users' roles and responsibilities"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "RBAC maps access permissions to organizational roles, ensuring users can only access resources relevant to their job responsibilities. This simplifies access management and enforces least privilege."
     },
     {
       "id": 149,
@@ -1639,7 +1787,8 @@
         "Network layer",
         "Application layer"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "When an attacker intercepts and modifies TCP traffic between two nodes, they target the Transport Layer (Layer 4), which handles TCP connections and data stream management."
     },
     {
       "id": 150,
@@ -1650,7 +1799,8 @@
         "Intrusion detection systems (IDS)",
         "Multi-factor authentication (MFA"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "Data encryption protects data at rest by converting it to an unreadable format. TLS is for data in transit, while IDS and MFA are detection and access controls, not data-at-rest protection."
     },
     {
       "id": 151,
@@ -1661,7 +1811,8 @@
         "An attack where an attacker eavesdrops on network traffic",
         "An attack where an attacker overloads a network with traffic"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "An IPSec replay attack involves capturing legitimate IPSec packets and retransmitting (replaying) them to inject them into an existing session. IPSec uses sequence numbers to defend against this."
     },
     {
       "id": 152,
@@ -1672,7 +1823,8 @@
         "To detect and respond to malicious activities and security threats",
         "To prevent physical access to network devices"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "IDPS combines detection and prevention capabilities to identify malicious activities and security threats in real-time, automatically blocking or alerting on suspicious network traffic and behavior."
     },
     {
       "id": 153,
@@ -1683,7 +1835,8 @@
         "Network Layer",
         "Data Link Layer"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "Router configuration issues affect the Network Layer (Layer 3), which handles routing and forwarding of packets. Misconfigured routes can lead to suboptimal paths and network congestion."
     },
     {
       "id": 154,
@@ -1694,7 +1847,8 @@
         "Software as a Service (SaaS)",
         "Function as a Service (FaaS)"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "IaaS provides virtualized computing resources including virtual machines, storage, and networking over the internet, giving customers maximum control over their computing environment."
     },
     {
       "id": 155,
@@ -1705,7 +1859,8 @@
         "To optimize cloud resource utilization",
         "To automate software deployment processes"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "DLP solutions monitor, detect, and block unauthorized data transfers to prevent sensitive information from leaving the organization. They enforce data handling policies across cloud environments."
     },
     {
       "id": 156,
@@ -1716,7 +1871,8 @@
         "Rainbow table attacks are less likely to succeed",
         "Brute-force attacks require less memory resources"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "Rainbow tables contain precomputed hash values, allowing attackers to look up password hashes quickly instead of computing each one. This makes them much faster than brute-force attacks, though they require significant storage. Salting passwords defeats rainbow tables."
     },
     {
       "id": 157,
@@ -1727,7 +1883,8 @@
         "Network Layer",
         "Data Link Layer"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "Router misconfiguration is a Network Layer (Layer 3) issue. Routers operate at this layer to make forwarding decisions, and improper configuration can cause inefficient routing and congestion."
     },
     {
       "id": 158,
@@ -1738,7 +1895,8 @@
         "Network layer",
         "Physical layer"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "Email-based malware attacks target the Application Layer because the attack vector (email with attachment) operates at this layer. The malware exploits application-level vulnerabilities to install itself."
     },
     {
       "id": 159,
@@ -1749,7 +1907,8 @@
         "To automate software deployment processes",
         "To protect data stored in cloud storage from unauthorized access"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "Encryption at rest protects stored data by ensuring it remains unreadable without the proper decryption key, even if the underlying storage is physically accessed or compromised."
     },
     {
       "id": 160,
@@ -1760,7 +1919,8 @@
         "Multi-factor authentication (MFA)",
         "Role-based access control (RBAC)"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "SIEM platforms aggregate and analyze log data from across the cloud environment, providing real-time monitoring of user activities, access patterns, and security events for threat detection."
     },
     {
       "id": 161,
@@ -1771,7 +1931,8 @@
         "To optimize cloud resource utilization",
         "To automate software deployment processes"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "DLP solutions focus on monitoring and controlling data movement to prevent sensitive or critical information from being transferred outside the organization without authorization."
     },
     {
       "id": 162,
@@ -1782,7 +1943,8 @@
         "Data encryption at rest",
         "Network segmentation"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "MFA adds layers of security beyond passwords, so compromised credentials alone are insufficient for unauthorized access. Attackers would also need the additional authentication factor (token, biometric, etc.)."
     },
     {
       "id": 163,
@@ -1793,7 +1955,8 @@
         "Software as a Service (SaaS)",
         "Function as a Service (FaaS)"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "SaaS provides the highest abstraction level where the cloud provider manages everything from infrastructure to the application itself. Customers only use the software, requiring the least management effort."
     },
     {
       "id": 164,
@@ -1804,7 +1967,8 @@
         "OTP encryption requires smaller key sizes",
         "OTP encryption is resistant to brute-force attacks"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "A one-time pad provides perfect secrecy (information-theoretically secure) when the key is truly random, at least as long as the message, used only once, and kept completely secret. It is the only encryption proven to be unbreakable."
     },
     {
       "id": 165,
@@ -1815,7 +1979,8 @@
         "Simplified application deployment",
         "Reduced data transfer costs"
       ],
-      "answer": 2
+      "answer": 2,
+      "explanation": "Containerization packages applications with their dependencies into portable containers, simplifying deployment across different environments. Containers ensure consistent behavior regardless of where they are deployed."
     },
     {
       "id": 166,
@@ -1826,7 +1991,8 @@
         "DES (Data Encryption Standard)",
         "MD5 (Message Digest Algorithm 5)"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "AES is the symmetric encryption algorithm used within TLS to encrypt data in transit. It is the standard for secure communication between cloud services and client devices."
     },
     {
       "id": 167,
@@ -1837,7 +2003,8 @@
         "Static privileges are more expensive to implement",
         "Static privileges may not provide enough access"
       ],
-      "answer": 0
+      "answer": 0,
+      "explanation": "Static privileges mean that once an admin logs in, they have all assigned privileges regardless of the task. This makes security entirely dependent on the login process, and if credentials are compromised, the attacker gains full access. Dynamic or just-in-time privileges are more secure."
     }
   ]
 }
