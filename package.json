@@ -1,0 +1,16 @@
+{
+  "name": "isc2-cc-practice-exam",
+  "version": "1.0.0",
+  "description": "Browser-based practice exam for the ISC2 Certified in Cybersecurity (CC) certification",
+  "scripts": {
+    "start": "npx serve -p 3000"
+  },
+  "keywords": ["isc2", "cc", "cybersecurity", "practice-exam", "quiz"],
+  "author": "mintarasss",
+  "license": "MIT",
+  "homepage": "https://mintarasss.github.io/isc2-cc-practice-exam/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mintarasss/isc2-cc-practice-exam.git"
+  }
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISC2 CC Practice Exam</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="app-header">
+      <h1>ISC2 CC Practice Exam</h1>
+      <p>Certified in Cybersecurity</p>
+    </header>
+
+    <!-- HOME VIEW -->
+    <div id="view-home" class="view active">
+      <div class="card">
+        <div class="config-section">
+          <label for="question-count">Number of Questions</label>
+          <div class="slider-row">
+            <input type="range" id="question-count" min="5" max="167" value="50">
+            <span class="slider-value" id="question-count-display">50</span>
+          </div>
+        </div>
+
+        <div class="config-section">
+          <label for="time-limit">Time Limit (minutes)</label>
+          <input type="number" id="time-limit" class="time-input" min="0" max="999" value="120">
+          <p class="hint">Set to 0 for unlimited time</p>
+        </div>
+
+        <div class="config-section">
+          <label>Presets</label>
+          <div class="presets">
+            <button class="preset-btn" data-count="10" data-time="5">Quick &mdash; 10 Qs / 5 min</button>
+            <button class="preset-btn" data-count="50" data-time="60">Standard &mdash; 50 Qs / 60 min</button>
+            <button class="preset-btn" data-count="100" data-time="120">Full &mdash; 100 Qs / 120 min</button>
+          </div>
+        </div>
+
+        <div class="home-actions">
+          <button class="btn btn-primary btn-lg" id="btn-start">Start Test</button>
+          <button class="btn btn-secondary btn-lg" id="btn-view-history">View History</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- QUIZ VIEW -->
+    <div id="view-quiz" class="view">
+      <div class="quiz-header">
+        <div class="timer" id="timer">--:--</div>
+        <div class="progress-text" id="progress">1 / 50</div>
+        <button class="btn btn-danger btn-sm" id="btn-submit-test">Submit Test</button>
+      </div>
+
+      <div class="question-card">
+        <div class="question-number" id="question-number">Question 1</div>
+        <div class="question-text" id="question-text"></div>
+        <div class="options-list" id="options-list"></div>
+      </div>
+
+      <div class="quiz-footer">
+        <div class="nav-btns">
+          <button class="btn btn-secondary btn-sm" id="btn-prev">Prev</button>
+          <button class="btn btn-secondary btn-sm" id="btn-next">Next</button>
+        </div>
+        <button class="btn btn-secondary btn-sm flag-btn" id="btn-flag">Flag</button>
+      </div>
+
+      <div class="navigator">
+        <h3>Question Navigator</h3>
+        <div class="nav-grid" id="nav-grid"></div>
+        <div class="nav-legend">
+          <span><span class="legend-dot gray"></span> Unanswered</span>
+          <span><span class="legend-dot blue"></span> Answered</span>
+          <span><span class="legend-dot orange"></span> Flagged</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTS VIEW -->
+    <div id="view-results" class="view">
+      <div class="card score-display">
+        <div>
+          <span class="score-number" id="result-score">42 / 50</span>
+          <span class="score-percentage" id="result-percentage">(84%)</span>
+        </div>
+        <div class="badge" id="result-badge">PASS</div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card correct">
+          <div class="stat-value" id="stat-correct">0</div>
+          <div class="stat-label">Correct</div>
+        </div>
+        <div class="stat-card incorrect">
+          <div class="stat-value" id="stat-incorrect">0</div>
+          <div class="stat-label">Incorrect</div>
+        </div>
+        <div class="stat-card unanswered">
+          <div class="stat-value" id="stat-unanswered">0</div>
+          <div class="stat-label">Unanswered</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-time">0:00</div>
+          <div class="stat-label">Time Taken</div>
+        </div>
+      </div>
+
+      <div class="results-actions">
+        <button class="btn btn-primary btn-lg" id="btn-new-test">New Test</button>
+        <button class="btn btn-secondary btn-lg" id="btn-results-history">View History</button>
+      </div>
+
+      <div class="review-section">
+        <h2>Question Review</h2>
+        <div id="review-list"></div>
+      </div>
+    </div>
+
+    <!-- HISTORY VIEW -->
+    <div id="view-history" class="view">
+      <div class="history-header">
+        <h2>Test History</h2>
+        <div>
+          <button class="btn btn-secondary btn-sm" id="btn-history-home">Back</button>
+          <button class="btn btn-danger btn-sm" id="btn-clear-history">Clear All</button>
+        </div>
+      </div>
+      <div id="history-list"></div>
+    </div>
+  </div>
+
+  <!-- CONFIRMATION MODAL -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <h3 id="modal-title">Submit Test?</h3>
+      <p id="modal-message">Are you sure you want to submit?</p>
+      <div class="modal-actions">
+        <button class="btn btn-secondary" id="modal-cancel">Cancel</button>
+        <button class="btn btn-primary" id="modal-confirm">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

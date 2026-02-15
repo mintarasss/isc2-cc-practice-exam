@@ -1,0 +1,1843 @@
+{
+  "title": "ISC2 CC Practice Questions",
+  "totalQuestions": 167,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary purpose of a cloud security group (CSG) in a public cloud environment?",
+      "options": [
+        "To provide physical security for cloud data centers",
+        "To manage access control for cloud resources",
+        "To optimize cloud resource allocation",
+        "To enforce regulatory compliance in the cloud"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is the main advantage of using a symmetric encryption algorithm over an asymmetric encryption algorithm?",
+      "options": [
+        "Symmetric encryption algorithms are faster and more efficient",
+        "Asymmetric encryption algorithms provide better security",
+        "Symmetric encryption algorithms require fewer resources",
+        "Asymmetric encryption algorithms are easier to implement"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is the primary purpose of using digital signatures in cryptographic protocols?",
+      "options": [
+        "To encrypt data for secure transmission",
+        "To verify the integrity and authenticity of data",
+        "To generate random cryptographic keys",
+        "To prevent unauthorized access to sensitive information"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "question": "What security feature is commonly used with HTTPS?",
+      "options": [
+        "IPsec",
+        "SSH",
+        "SSL/TLS",
+        "VPN"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is a characteristic of Infrastructure as a Service (IaaS)?",
+      "options": [
+        "Fully managed applications",
+        "Pay-as-you-go pricing model",
+        "Predetermined software configurations",
+        "Limited scalability options"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 6,
+      "question": "What is the primary purpose of implementing a disaster recovery plan in a cloud environment?",
+      "options": [
+        "To prevent unauthorized access to cloud resources",
+        "To ensure continuous availability of critical services during a disaster",
+        "To optimize cloud resource utilization",
+        "To automate software deployment processes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "question": "Which device is used to connect WAN to LAN?",
+      "options": [
+        "Firewalls",
+        "Router",
+        "Hub",
+        "Switch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "question": "Which cloud service model provides developers with a platform to build, deploy, and manage applications without managing underlying infrastructure?",
+      "options": [
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)",
+        "Function as a Service (FaaS)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "question": "An attacker intercepts traffic between a user and a server in order to eavesdrop on sensitive information being transmitted. This is an example of what type of attack?",
+      "options": [
+        "On-path Attack",
+        "Spoofing",
+        "Phishing",
+        "Side-channel"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 10,
+      "question": "Which network security measure is used to authenticate and authorize users and devices connecting to a network?",
+      "options": [
+        "Virtual Private Network (VPN)",
+        "Intrusion Detection System (IDS)",
+        "Network Access Control (NAC)",
+        "Packet Filtering"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 11,
+      "question": "Which port is used by the FTP protocol?",
+      "options": [
+        "21",
+        "22",
+        "23",
+        "80"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 12,
+      "question": "Which authentication mechanism is commonly used to access cloud resources securely from external networks?",
+      "options": [
+        "Username and password",
+        "Biometric authentication",
+        "OAuth (Open Authorization)",
+        "LDAP (Lightweight Directory Access Protocol)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 13,
+      "question": "Which port is commonly used for SSH?",
+      "options": [
+        "22",
+        "23",
+        "80",
+        "443"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is the primary purpose of data encryption in transit in cloud environments?",
+      "options": [
+        "To prevent unauthorized access to cloud resources",
+        "To protect data from unauthorized disclosure during transmission over networks",
+        "To optimize cloud resource utilization",
+        "To automate software deployment processes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "question": "A user receives an email that appears to be from their bank, requesting their login credentials. This is an example of what type of attack?",
+      "options": [
+        "Spoofing",
+        "Phishing",
+        "DOS/DDOS",
+        "Virus"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 16,
+      "question": "Which port is used by the SSH protocol for secure file transfers?",
+      "options": [
+        "SFTP",
+        "SCP",
+        "FTPS",
+        "TFTP"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is the purpose of conducting regular tests and exercises of a Business Continuity Plan (BCP)?",
+      "options": [
+        "To minimize resource utilization during normal operations",
+        "To validate the effectiveness of the plan and identify areas for improvement",
+        "To increase profitability of the organization",
+        "To prevent all types of disasters from occurring"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "question": "What is the main advantage of using a cloud access security broker (CASB) solution in cloud environments?",
+      "options": [
+        "To prevent distributed denial of service (DDoS) attacks",
+        "To monitor and control data traffic between on-premises and cloud environments",
+        "To encrypt data stored in cloud databases",
+        "To optimize cloud resource utilization"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "question": "What is the purpose of a Business Continuity Plan (BCP)?",
+      "options": [
+        "To prevent all types of disasters from occurring",
+        "To ensure the organization can continue critical business operations during and after a disaster",
+        "To optimize resource utilization during normal operations",
+        "To increase profitability"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "question": "Which type of attack involves flooding a network or server with traffic, rendering it unavailable to legitimate users?",
+      "options": [
+        "DOS/DDOS",
+        "Spoofing",
+        "Phishing",
+        "Virus"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 21,
+      "question": "Which cloud deployment model provides dedicated infrastructure for a single organization?",
+      "options": [
+        "Public cloud",
+        "Private cloud",
+        "Hybrid cloud",
+        "Community cloud"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 22,
+      "question": "What is the primary goal of cloud access security brokers (CASBs)?",
+      "options": [
+        "To provide identity and access management services",
+        "To monitor and control data traffic between on-premises and cloud environments",
+        "To encrypt data stored in cloud databases",
+        "To optimize cloud resource allocation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is the primary purpose of data encryption in transit in cloud environments?",
+      "options": [
+        "To prevent unauthorized access to cloud resources",
+        "To protect data from unauthorized disclosure during transmission over networks",
+        "To optimize cloud resource utilization",
+        "To automate software deployment processes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "question": "Which encryption protocol is commonly used to secure data transmitted over wireless networks?",
+      "options": [
+        "WPA2 (Wi-Fi Protected Access 2)",
+        "SSL (Secure Sockets Layer)",
+        "TLS (Transport Layer Security)",
+        "AES (Advanced Encryption Standard)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 25,
+      "question": "How does IPSec protect against replay attacks?",
+      "options": [
+        "By encrypting all network traffic",
+        "By using digital signatures",
+        "By using sequence numbers",
+        "By limiting access to the network"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 26,
+      "question": "Which cloud deployment model provides a combination of private and public cloud resources?",
+      "options": [
+        "Public cloud",
+        "Private cloud",
+        "Hybrid cloud",
+        "Community cloud"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 27,
+      "question": "Which port is used by the Telnet protocol?",
+      "options": [
+        "23",
+        "21",
+        "22",
+        "80"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 28,
+      "question": "Which authentication mechanism is commonly used to access cloud resources securely from external networks?",
+      "options": [
+        "Username and password",
+        "Biometric authentication",
+        "OAuth (Open Authorization)",
+        "LDAP (Lightweight Directory Access Protocol)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 29,
+      "question": "What is the primary purpose of using role-based access control (RBAC) in a cloud environment?",
+      "options": [
+        "To prevent distributed denial of service (DDoS) attacks",
+        "To enforce regulatory compliance",
+        "To monitor user activities and access patterns",
+        "To restrict access to cloud resources based on users' roles and responsibilities"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 30,
+      "question": "What is the primary purpose of network segmentation in cloud environments?",
+      "options": [
+        "To increase network bandwidth",
+        "To reduce latency for cloud applications",
+        "To isolate sensitive workloads and data from potential threats",
+        "To automate network provisioning processes"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is an example of a registered port?",
+      "options": [
+        "Microsoft SQL Server",
+        "RADIUS authentication",
+        "HTTP",
+        "SMB"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is the purpose of implementing a Virtual Private Network (VPN) in a network?",
+      "options": [
+        "To optimize network performance",
+        "To securely connect remote users and devices to a private network over the internet",
+        "To prevent physical access to network devices",
+        "To monitor network traffic for compliance purposes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 33,
+      "question": "Which cloud service model provides ready-to-use software applications over the internet?",
+      "options": [
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)",
+        "Function as a Service (FaaS)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 34,
+      "question": "An organization is experiencing issues with their VPN connection, causing frequent disconnects. Which OSI layer is most likely affected by this issue?",
+      "options": [
+        "Application Layer",
+        "Transport Layer",
+        "Network Layer",
+        "Physical Layer"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 35,
+      "question": "Which cryptographic algorithm is vulnerable to collision attacks and should not be used for generating digital signatures?",
+      "options": [
+        "AES (Advanced Encryption Standard)",
+        "RSA (Rivest-Shamir-Adleman)",
+        "MD5 (Message Digest Algorithm 5)",
+        "SHA-256 (Secure Hash Algorithm 256-bit)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 36,
+      "question": "What is the primary purpose of a distributed denial of service (DDoS) mitigation service in cloud environments?",
+      "options": [
+        "To prevent unauthorized access to cloud resources",
+        "To monitor and analyze network traffic patterns",
+        "To detect and block malicious traffic targeting cloud services",
+        "To optimize cloud resource utilization"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 37,
+      "question": "Which cloud service model provides ready-to-use software applications over the internet?",
+      "options": [
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)",
+        "Function as a Service (FaaS)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 38,
+      "question": "Which of the following would be considered an endpoint?",
+      "options": [
+        "Software task",
+        "Router",
+        "Firewall",
+        "Laptop"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 39,
+      "question": "Which encryption algorithm is commonly used to protect data in transit between cloud services and users' devices?",
+      "options": [
+        "AES (Advanced Encryption Standard)",
+        "RSA (Rivest-Shamir-Adleman)",
+        "DES (Data Encryption Standard)",
+        "MD5 (Message Digest Algorithm 5)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is an IPv4 address?",
+      "options": [
+        "A 128-bit address used to uniquely identify devices on a network.",
+        "A 32-bit address used to uniquely identify devices on a network.",
+        "An address used for internal network use only.",
+        "An address used for documentation purposes only."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 41,
+      "question": "A user receives an email that appears to be from their bank, requesting their login credentials. This is an example of what type of attack?",
+      "options": [
+        "Spoofing",
+        "Phishing",
+        "DOS/DDOS",
+        "Virus"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 42,
+      "question": "Which cryptographic attack targets the process of intercepting and altering communication between two parties?",
+      "options": [
+        "Man-in-the-middle (MITM) attack",
+        "Brute-force attack",
+        "Dictionary attack",
+        "Rainbow table attack"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 43,
+      "question": "Which type of malware encrypts a user's files and demands payment in exchange for the decryption key? a. Ransomware",
+      "options": [
+        "Ransomware",
+        "Worm",
+        "Trojan",
+        "Virus"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 44,
+      "question": "What security control is used to protect data in transit between cloud services and users' devices?",
+      "options": [
+        "Data encryption at rest",
+        "Network intrusion detection systems (NIDS)",
+        "Transport Layer Security (TLS)",
+        "Role-based access control (RBAC)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 45,
+      "question": "Which component of a Business Continuity Plan (BCP) identifies critical business functions and the resources required to support them?",
+      "options": [
+        "Plan development and testing",
+        "Risk assessment",
+        "Business impact analysis (BIA)",
+        "Plan implementation"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 46,
+      "question": "What is the primary purpose of data encryption in transit in cloud environments?",
+      "options": [
+        "To prevent unauthorized access to cloud resources",
+        "To protect data from unauthorized disclosure during transmission over networks",
+        "To optimize cloud resource utilization",
+        "To automate software deployment processes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 47,
+      "question": "What is the primary objective of a disaster recovery plan in cloud computing?",
+      "options": [
+        "To prevent unauthorized access to cloud resources",
+        "To ensure continuous availability of critical services during a disaster",
+        "To optimize cloud resource utilization",
+        "To automate software deployment processes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 48,
+      "question": "What is the primary purpose of using a digital certificate in public key infrastructure (PKI)?",
+      "options": [
+        "To encrypt data for secure transmission",
+        "To authenticate the identity of users and devices",
+        "To generate random cryptographic keys",
+        "To prevent buffer overflow attacks"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 49,
+      "question": "A hacker gains access to a company's network and begins to intercept network traffic in order to steal login credentials. Which OSI layer is being attacked?",
+      "options": [
+        "Physical layer",
+        "Data link layer",
+        "Network layer",
+        "Application layer"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 50,
+      "question": "Which security control is used to verify the integrity and authenticity of cloud service providers?",
+      "options": [
+        "Service level agreements (SLAs)",
+        "Cloud security certifications",
+        "Encryption protocols",
+        "Intrusion detection systems (IDS)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 51,
+      "question": "Which encryption algorithm is commonly used to protect data in transit in cloud environments?",
+      "options": [
+        "AES (Advanced Encryption Standard)",
+        "DES (Data Encryption Standard)",
+        "RSA (Rivest-Shamir-Adleman)",
+        "MD5 (Message Digest Algorithm 5)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 52,
+      "question": "Which of the following is a characteristic of a public cloud deployment model?",
+      "options": [
+        "Dedicated infrastructure for a single organization",
+        "Limited scalability options",
+        "Shared infrastructure for multiple organizations",
+        "Full control over hardware and software configurations"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 53,
+      "question": "At which layer of the TCP/IP protocol stack does a firewall operate?",
+      "options": [
+        "Layer 1",
+        "Layer 2",
+        "Layer 3",
+        "Layer 4"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 54,
+      "question": "What is the primary purpose of using a salt when hashing passwords?",
+      "options": [
+        "To add flavor to the password",
+        "To increase the entropy of the hashed passwords",
+        "To make the passwords easier to crack",
+        "To decrease the security of the hashing algorithm"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 55,
+      "question": "Which security control is used to prevent unauthorized access to sensitive data in cloud databases?",
+      "options": [
+        "Role-based access control (RBAC)",
+        "Network intrusion detection systems (NIDS)",
+        "Distributed denial of service (DDoS) mitigation",
+        "Security information and event management (SIEM)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 56,
+      "question": "What protocol is associated with port 53?",
+      "options": [
+        "DNS",
+        "SMTP",
+        "HTTP",
+        "HTTPS"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 57,
+      "question": "What layer of the OSI model is the target of a ping flood attack?",
+      "options": [
+        "Layer 3",
+        "Layer 4",
+        "Layer 5",
+        "Layer 6"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 58,
+      "question": "What is the potential impact of an IPSec replay attack?",
+      "options": [
+        "Unauthorized access to network resources",
+        "Disruption of network communication",
+        "Modification of network traffic",
+        "All of the above"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 59,
+      "question": "Which security control is used to protect data in transit between cloud services and users' devices?",
+      "options": [
+        "Data encryption at rest",
+        "Network intrusion detection systems (NIDS)",
+        "Transport Layer Security (TLS)",
+        "Role-based access control (RBAC)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 60,
+      "question": "What is the primary goal of implementing multi-factor authentication (MFA) in a cloud environment?",
+      "options": [
+        "To prevent unauthorized access to cloud resources",
+        "To optimize cloud resource utilization",
+        "To automate software deployment processes",
+        "To monitor user activities and access patterns"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 61,
+      "question": "Which cloud deployment model provides cloud resources exclusively for a specific organization?",
+      "options": [
+        "Hybrid cloud",
+        "Public cloud",
+        "Private cloud",
+        "Community cloud"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 62,
+      "question": "What is the primary purpose of implementing network segmentation?",
+      "options": [
+        "To prevent unauthorized access to network resources",
+        "To increase the speed of data transmission across the network",
+        "To divide a network into smaller subnetworks for improved security and performance",
+        "To monitor network traffic for compliance purposes"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 63,
+      "question": "Which encryption algorithm is commonly used to protect data at rest in cloud storage?",
+      "options": [
+        "AES (Advanced Encryption Standard)",
+        "RSA (Rivest-Shamir-Adleman)",
+        "DES (Data Encryption Standard)",
+        "MD5 (Message Digest Algorithm 5)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 64,
+      "question": "A user clicks on an attachment in an email that they believe is from a friend, which then installs malicious software on their computer. This is an example of what type of malware?",
+      "options": [
+        "Worm",
+        "Virus",
+        "Trojan",
+        "Ransomware"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 65,
+      "question": "A company has been experiencing network connectivity issues that have been traced to a problem with the cabling. Which OSI layer is affected by this issue?",
+      "options": [
+        "Application Layer",
+        "Transport Layer",
+        "Network Layer",
+        "Physical Layer"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 66,
+      "question": "What is the primary goal of data loss prevention (DLP) solutions in cloud environments?",
+      "options": [
+        "To prevent unauthorized access to cloud resources",
+        "To monitor and control data movement within and outside the organization",
+        "To optimize cloud resource utilization",
+        "To automate software deployment processes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 67,
+      "question": "A hacker uses a distributed denial of service (DDoS) attack to flood a company's network with traffic, rendering it unable to function properly. Which OSI layer is being attacked?",
+      "options": [
+        "Physical layer",
+        "Data link layer",
+        "Network layer",
+        "Transport layer"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 68,
+      "question": "What is the well-known port for SMTP?",
+      "options": [
+        "25",
+        "80",
+        "443",
+        "22"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 69,
+      "question": "What are registered ports used for?",
+      "options": [
+        "Proprietary applications from vendors and developers",
+        "Common protocols at the core of TCP/IP model",
+        "Used for Web servers",
+        "Used for inhouse or opensource applications"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 70,
+      "question": "Which cloud service model provides developers with a platform to build, deploy, and manage applications without managing underlying infrastructure?",
+      "options": [
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)",
+        "Function as a Service (FaaS)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 71,
+      "question": "What layer of the OSI model is the target of a port scanning attack?",
+      "options": [
+        "Layer 1",
+        "Layer 2",
+        "Layer 3",
+        "Layer 4"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 72,
+      "question": "A user reports that they are unable to access a specific website. Which OSI layer is most likely affected by this issue?",
+      "options": [
+        "Application Layer",
+        "Transport Layer",
+        "Network Layer",
+        "Data Link Layer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 73,
+      "question": "What is the primary objective of implementing a cloud access security broker (CASB) solution?",
+      "options": [
+        "To manage cloud service provider relationships",
+        "To optimize cloud resource utilization",
+        "To monitor and control data traffic between on-premises and cloud environments",
+        "To encrypt data stored in cloud databases"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 74,
+      "question": "Which cloud deployment model provides cloud resources exclusively for a specific organization?",
+      "options": [
+        "Public cloud",
+        "Private cloud",
+        "Hybrid cloud",
+        "Community cloud"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 75,
+      "question": "What is the purpose of a cloud security posture management (CSPM) tool?",
+      "options": [
+        "To monitor and enforce compliance with security policies in cloud environments",
+        "To optimize cloud resource allocation",
+        "To encrypt data stored in cloud databases",
+        "To automate software deployment processes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 76,
+      "question": "What security control is used to protect data at rest in cloud storage?",
+      "options": [
+        "Role-based access control (RBAC)",
+        "Data encryption",
+        "Intrusion detection systems (IDS)",
+        "Multi-factor authentication (MFA)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 77,
+      "question": "What is the main advantage of using a cloud access security broker (CASB) solution in cloud environments?",
+      "options": [
+        "To prevent distributed denial of service (DDoS) attacks",
+        "To monitor and control data traffic between on-premises and cloud environments",
+        "To encrypt data stored in cloud databases",
+        "To optimize cloud resource utilization"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 78,
+      "question": "What is the primary goal of a Disaster Recovery Plan (DRP)?",
+      "options": [
+        "To prevent all types of disasters from occurring",
+        "To ensure the continuity of critical business operations",
+        "To optimize resource utilization during normal operations",
+        "To increase profitability"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 79,
+      "question": "Which cloud deployment model provides dedicated infrastructure for a single organization?",
+      "options": [
+        "Public cloud",
+        "Private cloud",
+        "Hybrid cloud",
+        "Community cloud"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 80,
+      "question": "What protocol is associated with port 80?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "SSH",
+        "Telnet"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 81,
+      "question": "What is the purpose of a virtual private cloud (VPC)?",
+      "options": [
+        "To provide dedicated physical servers to customers",
+        "To isolate network traffic within a public cloud environment",
+        "To optimize virtual machine performance",
+        "To enforce strict access controls on cloud resources"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 82,
+      "question": "What is the primary purpose of a distributed denial of service (DDoS) mitigation service in cloud environments?",
+      "options": [
+        "To prevent unauthorized access to cloud resources",
+        "To monitor and analyze network traffic patterns",
+        "To detect and block malicious traffic targeting cloud services",
+        "To optimize cloud resource utilization"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 83,
+      "question": "Which security control is used to detect and respond to security incidents in cloud environments?",
+      "options": [
+        "Multi-factor authentication (MFA)",
+        "Intrusion detection systems (IDS)",
+        "Role-based access control (RBAC)",
+        "Data encryption at rest"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 84,
+      "question": "What is the primary goal of implementing a disaster recovery plan in a cloud environment?",
+      "options": [
+        "To prevent unauthorized access to cloud resources",
+        "To ensure continuous availability of critical services during a disaster",
+        "To optimize cloud resource utilization",
+        "To automate software deployment processes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 85,
+      "question": "A user reports that they are unable to access a specific website. Which OSI layer is most likely affected by this issue?",
+      "options": [
+        "Application Layer",
+        "Transport Layer",
+        "Network Layer",
+        "Data Link Layer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 86,
+      "question": "What layer of the OSI model is the target of a man-in-the-middle (MITM) attack?",
+      "options": [
+        "Layer 2",
+        "Layer 3",
+        "Layer 4",
+        "Layer 7"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 87,
+      "question": "What is the main advantage of using a cloud access security broker (CASB) solution in cloud environments?",
+      "options": [
+        "To prevent distributed denial of service (DDoS) attacks",
+        "To monitor and control data traffic between on-premises and cloud environments",
+        "To encrypt data stored in cloud databases",
+        "To optimize cloud resource utilization"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 88,
+      "question": "Which cloud service model provides access to virtualized computing resources over the internet?",
+      "options": [
+        "Infrastructure as a Service (IaaS)",
+        "Software as a Service (SaaS)",
+        "Platform as a Service (PaaS)",
+        "Function as a Service (FaaS)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 89,
+      "question": "What is the primary goal of implementing role-based access control (RBAC) in a cloud environment?",
+      "options": [
+        "To prevent distributed denial of service (DDoS) attacks",
+        "To enforce regulatory compliance",
+        "To monitor user activities and access patterns",
+        "To restrict access to cloud resources based on users' roles and responsibilities"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 90,
+      "question": "What is the primary purpose of using encryption at rest in cloud storage?",
+      "options": [
+        "To prevent unauthorized access to cloud resources",
+        "To protect data from unauthorized disclosure during transmission over networks",
+        "To optimize cloud resource utilization",
+        "To protect data stored in cloud storage from unauthorized access"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 91,
+      "question": "Which phase of the Business Continuity Planning (BCP) process involves identifying potential risks and threats to an organization's operations?",
+      "options": [
+        "Risk assessment",
+        "Business impact analysis",
+        "Plan development and testing",
+        "Plan implementation"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 92,
+      "question": "Which authentication mechanism is commonly used to access cloud resources securely from external networks?",
+      "options": [
+        "Username and password",
+        "Biometric authentication",
+        "OAuth (Open Authorization)",
+        "LDAP (Lightweight Directory Access Protocol)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 93,
+      "question": "What is the primary purpose of using network segmentation in a cloud environment?",
+      "options": [
+        "To optimize network bandwidth",
+        "To increase network latency",
+        "To isolate workloads and data for security purposes",
+        "To automate network provisioning processes"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 94,
+      "question": "Which cloud service model provides developers with a platform to build, deploy, and manage applications without managing underlying infrastructure?",
+      "options": [
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)",
+        "Function as a Service (FaaS)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 95,
+      "question": "What is the primary purpose of a cloud security group (CSG) in a public cloud environment?",
+      "options": [
+        "To provide physical security for cloud data centers",
+        "To manage access control for cloud resources",
+        "To optimize cloud resource allocation",
+        "To enforce regulatory compliance in the cloud"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 96,
+      "question": "Which type of malware encrypts a user's files and demands payment in exchange for the decryption key?",
+      "options": [
+        "Ransomware",
+        "Worm",
+        "Trojan",
+        "Virus"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 97,
+      "question": "What is the main advantage of using a cloud access security broker (CASB) solution in cloud environments?",
+      "options": [
+        "To prevent distributed denial of service (DDoS) attacks",
+        "To monitor and control data traffic between on-premises and cloud environments",
+        "To encrypt data stored in cloud databases",
+        "To optimize cloud resource utilization"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 98,
+      "question": "What is the primary purpose of using a nonce in cryptographic protocols?",
+      "options": [
+        "To add randomness to the encryption process",
+        "To increase the security of the cryptographic keys",
+        "To prevent replay attacks",
+        "To authenticate the parties involved in the communication"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 99,
+      "question": "A hacker uses a DNS spoofing attack to redirect a user to a fake website that looks like a legitimate one. Once the user enters their login credentials, the hacker steals the information. Which OSI layer is being attacked?",
+      "options": [
+        "Physical layer",
+        "Data link layer",
+        "Network layer",
+        "Application layer"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 100,
+      "question": "An attacker intercepts traffic between a user and a server in order to eavesdrop on sensitive information being transmitted. This is an example of what type of attack?",
+      "options": [
+        "On-path Attack",
+        "Spoofing",
+        "Phishing",
+        "Side-channel"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 101,
+      "question": "Which security control is used to monitor and analyze user activities and access patterns in cloud environments?",
+      "options": [
+        "Security information and event management (SIEM)",
+        "Intrusion detection systems (IDS)",
+        "Multi-factor authentication (MFA)",
+        "Role-based access control (RBAC)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 102,
+      "question": "What is the primary purpose of using role-based access control (RBAC) in a cloud environment?",
+      "options": [
+        "To prevent distributed denial of service (DDoS) attacks",
+        "To enforce regulatory compliance",
+        "To monitor user activities and access patterns",
+        "To restrict access to cloud resources based on users' roles and responsibilities"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 103,
+      "question": "What is the range of dynamic or private ports?",
+      "options": [
+        "49152-65535",
+        "0-1023",
+        "1024-49151",
+        "none of the above"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 104,
+      "question": "Which security control is designed to detect and prevent buffer overflow attacks?",
+      "options": [
+        "Intrusion detection systems (IDS)",
+        "Firewalls",
+        "Antivirus software",
+        "Input validation mechanisms"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 105,
+      "question": "What layer of the OSI model is the target of a MAC flooding attack?",
+      "options": [
+        "Layer 2",
+        "Layer 3",
+        "Layer 4",
+        "Layer 7"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 106,
+      "question": "What is the primary purpose of implementing multi-factor authentication (MFA) in a cloud environment?",
+      "options": [
+        "To optimize cloud resource utilization",
+        "To prevent unauthorized access to cloud resources",
+        "To automate software deployment processes",
+        "To monitor user activities and access patterns"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 107,
+      "question": "What is the main purpose of an Incident Response Plan (IRP)?",
+      "options": [
+        "To improve employee productivity",
+        "To prevent all security incidents from occurring",
+        "To allocate resources for routine maintenance tasks",
+        "To provide guidelines and procedures for responding to and mitigating security incidents"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 108,
+      "question": "What is the primary purpose of a cloud security group (CSG) in a public cloud environment?",
+      "options": [
+        "To provide physical security for cloud data centers",
+        "To manage access control for cloud resources",
+        "To optimize cloud resource allocation",
+        "To enforce regulatory compliance in the cloud"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 109,
+      "question": "What is the primary goal of implementing role-based access control (RBAC) in a cloud environment?",
+      "options": [
+        "To prevent distributed denial of service (DDoS) attacks",
+        "To enforce regulatory compliance",
+        "To monitor user activities and access patterns",
+        "To restrict access to cloud resources based on users' roles and responsibilities"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 110,
+      "question": "Which type of attack involves flooding a network or server with traffic, rendering it unavailable to legitimate users?",
+      "options": [
+        "DOS/DDOS",
+        "Spoofing",
+        "Phishing",
+        "Virus"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 111,
+      "question": "What is the purpose of a distributed denial of service (DDoS) mitigation service in cloud environments?",
+      "options": [
+        "To prevent unauthorized access to cloud resources",
+        "To monitor and analyze network traffic patterns",
+        "To detect and block malicious traffic targeting cloud services",
+        "To optimize cloud resource utilization"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 112,
+      "question": "A user clicks on an attachment in an email that they believe is from a friend, which then installs malicious software on their computer. This is an example of what type of malware?",
+      "options": [
+        "Worm",
+        "Virus",
+        "Trojan",
+        "Ransomware"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 113,
+      "question": "Which cloud deployment model provides a combination of private and public cloud resources?",
+      "options": [
+        "Public cloud",
+        "Private cloud",
+        "Hybrid cloud",
+        "Community cloud"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 114,
+      "question": "Which of the following is a characteristic of a public cloud deployment model?",
+      "options": [
+        "Dedicated infrastructure for a single organization",
+        "Limited scalability options",
+        "Shared infrastructure for multiple organizations",
+        "Full control over hardware and software configurations"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 115,
+      "question": "What security measure can help prevent unauthorized access to cloud resources through stolen or compromised credentials?",
+      "options": [
+        "Intrusion detection systems (IDS)",
+        "Multi-factor authentication (MFA)",
+        "Data encryption at rest",
+        "Network segmentation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 116,
+      "question": "A hacker uses a distributed denial of service (DDoS) attack to flood a company's network with traffic, rendering it unable to function properly. Which OSI layer is being attacked?",
+      "options": [
+        "Physical layer",
+        "Data link layer",
+        "Network layer",
+        "Transport layer"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 117,
+      "question": "What is the primary objective of implementing a cloud access security broker (CASB) solution?",
+      "options": [
+        "To manage cloud service provider relationships",
+        "To optimize cloud resource utilization",
+        "To monitor and control data traffic between on-premises and cloud environments",
+        "To encrypt data stored in cloud databases"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 118,
+      "question": "What layer of the OSI model is the target of a SYN flood attack?",
+      "options": [
+        "Layer 4",
+        "Layer 5",
+        "Layer 6",
+        "Layer 7"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 119,
+      "question": "What security measure can help prevent unauthorized access to cloud resources through stolen or compromised credentials?",
+      "options": [
+        "Intrusion detection systems (IDS)",
+        "Multi-factor authentication (MFA)",
+        "Data encryption at rest",
+        "Network segmentation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 120,
+      "question": "Which encryption algorithm is commonly used to protect data in transit between cloud services and users' devices?",
+      "options": [
+        "AES (Advanced Encryption Standard)",
+        "RSA (Rivest-Shamir-Adleman)",
+        "DES (Data Encryption Standard)",
+        "MD5 (Message Digest Algorithm 5)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 121,
+      "question": "An organization is experiencing issues with their VPN connection, causing frequent disconnects. Which OSI layer is most likely affected by this issue?",
+      "options": [
+        "Application Layer",
+        "Transport Layer",
+        "Network Layer",
+        "Physical Layer"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 122,
+      "question": "Which cloud service model provides ready-to-use software applications over the internet?",
+      "options": [
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Software as a Service (SaaS)",
+        "Function as a Service (FaaS)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 123,
+      "question": "Which authentication mechanism is commonly used to access cloud resources securely from external networks?",
+      "options": [
+        "Username and password",
+        "Biometric authentication",
+        "OAuth (Open Authorization)",
+        "LDAP (Lightweight Directory Access Protocol)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 124,
+      "question": "A company has been experiencing network connectivity issues that have been traced to a problem with the cabling. Which OSI layer is affected by this issue?",
+      "options": [
+        "Application Layer",
+        "Transport Layer",
+        "Network Layer",
+        "Physical Layer"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 125,
+      "question": "What is an IPv4 address?",
+      "options": [
+        "A 128-bit address used to uniquely identify devices on a network.",
+        "A 32-bit address used to uniquely identify devices on a network.",
+        "An address used for internal network use only.",
+        "An address used for documentation purposes only."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 126,
+      "question": "Which security control is used to detect and respond to security incidents in cloud environments?",
+      "options": [
+        "Intrusion detection systems (IDS)",
+        "Multi-factor authentication (MFA)",
+        "Role-based access control (RBAC)",
+        "Data encryption at rest"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 127,
+      "question": "Which security control is used to prevent unauthorized access to sensitive data in cloud databases?",
+      "options": [
+        "Role-based access control (RBAC)",
+        "Network intrusion detection systems (NIDS)",
+        "Distributed denial of service (DDoS) mitigation",
+        "Security information and event management (SIEM)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 128,
+      "question": "What is the primary purpose of a cloud access security broker (CASB) solution?",
+      "options": [
+        "To manage cloud service provider relationships",
+        "To optimize cloud resource utilization",
+        "To monitor and control data traffic between on-premises and cloud environments",
+        "To encrypt data stored in cloud databases"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 129,
+      "question": "Which cloud deployment model provides dedicated infrastructure for a single organization?",
+      "options": [
+        "Public cloud",
+        "Private cloud",
+        "Hybrid cloud",
+        "Community cloud"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 130,
+      "question": "What is the range of well-known ports?",
+      "options": [
+        "0-1023",
+        "1024-49151",
+        "1024-49151",
+        "none of the above"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 131,
+      "question": "What is the primary purpose of implementing a firewall in a network?",
+      "options": [
+        "To optimize network performance",
+        "To monitor and control incoming and outgoing network traffic",
+        "To encrypt data transmitted over the network",
+        "To prevent physical access to network devices"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 132,
+      "question": "Which of the following is a characteristic of a private cloud deployment model?",
+      "options": [
+        "Shared infrastructure for multiple organizations",
+        "Limited scalability options",
+        "Dedicated infrastructure for a single organization",
+        "Full control over hardware and software configurations"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 133,
+      "question": "Which encryption algorithm is commonly used to protect data at rest in cloud storage?",
+      "options": [
+        "AES (Advanced Encryption Standard)",
+        "RSA (Rivest-Shamir-Adleman)",
+        "DES (Data Encryption Standard)",
+        "MD5 (Message Digest Algorithm 5)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 134,
+      "question": "What is an IP address?",
+      "options": [
+        "A physical address used to connect multiple devices in a network",
+        "An address that represents the network interface within the network",
+        "An address that denotes the vendor or manufacturer of the physical network interface",
+        "A logical address associated with a unique network interface within the network"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 135,
+      "question": "What is the difference between a hub and a switch?",
+      "options": [
+        "A hub is smarter than a switch.",
+        "A switch is less likely to be seen in home networks.",
+        "A switch can create separate broadcast domains when used to create VLANs.",
+        "A switch retransmits traffic to all devices, while a switch routes traffic to a specific device."
+      ],
+      "answer": 3
+    },
+    {
+      "id": 136,
+      "question": "Which device is used to control traffic flow on networks?",
+      "options": [
+        "switch",
+        "Firewalls",
+        "hub",
+        "router"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 137,
+      "question": "Which protocol is used for secure email?",
+      "options": [
+        "SMTPS",
+        "IMAPS",
+        "POP3S",
+        "All of the above"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 138,
+      "question": "Which phase of the Incident Response Plan (IRP) process involves containing the impact of a security incident and mitigating further damage?",
+      "options": [
+        "Preparation and planning",
+        "Detection and analysis",
+        "Response and mitigation",
+        "Recovery and post-incident activities"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 139,
+      "question": "What layer of the OSI model is the target of a buffer overflow attack?",
+      "options": [
+        "Layer 5",
+        "Layer 6",
+        "Layer 7",
+        "Layer 8"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 140,
+      "question": "What does the \"shared responsibility model\" in cloud computing refer to?",
+      "options": [
+        "Responsibility for data encryption",
+        "Division of security responsibilities between the cloud provider and the customer",
+        "Ownership of physical infrastructure",
+        "Compliance with industry regulations"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 141,
+      "question": "What is the primary purpose of using network segmentation in a cloud environment?",
+      "options": [
+        "To optimize network bandwidth",
+        "To increase network latency",
+        "To isolate workloads and data for security purposes",
+        "To automate network provisioning processes"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 142,
+      "question": "How does subnetting help to improve network performance?",
+      "options": [
+        "By reducing network congestion",
+        "By increasing network bandwidth",
+        "By improving network security",
+        "By simplifying network management"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 143,
+      "question": "Which cloud service model provides ready-to-use software applications over the internet?",
+      "options": [
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)",
+        "Function as a Service (FaaS)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 144,
+      "question": "Which port is commonly used for HTTPS?",
+      "options": [
+        "80",
+        "443",
+        "446",
+        "22"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 145,
+      "question": "Which security control is used to prevent unauthorized access to sensitive data in cloud databases?",
+      "options": [
+        "Role-based access control (RBAC)",
+        "Network intrusion detection systems (NIDS)",
+        "Distributed denial of service (DDoS) mitigation",
+        "Security information and event management (SIEM)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 146,
+      "question": "What security measure can help prevent unauthorized access to cloud resources through stolen or compromised credentials?",
+      "options": [
+        "Intrusion detection systems (IDS)",
+        "Multi-factor authentication (MFA)",
+        "Data encryption at rest",
+        "Network segmentation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 147,
+      "question": "What is the primary purpose of implementing network encryption in a cloud environment?",
+      "options": [
+        "To prevent unauthorized access to cloud resources",
+        "To protect data from unauthorized disclosure during transmission over networks",
+        "To optimize cloud resource utilization",
+        "To automate software deployment processes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 148,
+      "question": "What is the primary purpose of using role-based access control (RBAC) in a cloud environment?",
+      "options": [
+        "To monitor user activities and access patterns",
+        "To prevent distributed denial of service (DDoS) attacks",
+        "To enforce regulatory compliance",
+        "To restrict access to cloud resources based on users' roles and responsibilities"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 149,
+      "question": "A hacker uses a man-in-the-middle attack to intercept network traffic between two nodes and injects malicious code into the data stream. Which TCP layer is being attacked?",
+      "options": [
+        "Physical layer",
+        "Transport layer",
+        "Network layer",
+        "Application layer"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 150,
+      "question": "Which of the following is an example of a security control used to protect data at rest in cloud storage? )",
+      "options": [
+        "Transport Layer Security (TLS)",
+        "Data encryption",
+        "Intrusion detection systems (IDS)",
+        "Multi-factor authentication (MFA"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 151,
+      "question": "What is an IPSec replay attack?",
+      "options": [
+        "An attack where an attacker attempts to inject packets into an existing session",
+        "An attack where an attacker modifies packets in transit",
+        "An attack where an attacker eavesdrops on network traffic",
+        "An attack where an attacker overloads a network with traffic"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 152,
+      "question": "What is the primary goal of implementing intrusion detection and prevention systems (IDPS) in a network?",
+      "options": [
+        "To monitor network traffic for compliance purposes",
+        "To optimize network performance",
+        "To detect and respond to malicious activities and security threats",
+        "To prevent physical access to network devices"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 153,
+      "question": "A company has noticed that their network performance has been slow lately. After investigating, they discover that their router is not configured properly, leading to network congestion. Which OSI layer is most likely affected by this issue?",
+      "options": [
+        "Application Layer",
+        "Transport Layer",
+        "Network Layer",
+        "Data Link Layer"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 154,
+      "question": "Which cloud service model provides access to virtualized computing resources over the internet?",
+      "options": [
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)",
+        "Function as a Service (FaaS)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 155,
+      "question": "What is the primary goal of implementing data loss prevention (DLP) solutions in cloud environments?",
+      "options": [
+        "To prevent unauthorized access to cloud resources",
+        "To monitor and control data movement within and outside the organization",
+        "To optimize cloud resource utilization",
+        "To automate software deployment processes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 156,
+      "question": "What is the main advantage of using a rainbow table attack compared to a brute-force attack?",
+      "options": [
+        "Rainbow table attacks are faster and more efficient",
+        "Brute-force attacks are less computationally intensive",
+        "Rainbow table attacks are less likely to succeed",
+        "Brute-force attacks require less memory resources"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 157,
+      "question": "A company has noticed that their network performance has been slow lately. After investigating, they discover that their router is not configured properly, leading to network congestion. Which OSI layer is most likely affected by this issue?",
+      "options": [
+        "Application Layer",
+        "Transport Layer",
+        "Network Layer",
+        "Data Link Layer"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 158,
+      "question": "A hacker sends a specially crafted email with a malicious attachment to an employee of a company. Once the employee downloads and opens the attachment, malware is installed on the computer. Which TCP layer is being attacked?",
+      "options": [
+        "Application layer",
+        "Transport layer",
+        "Network layer",
+        "Physical layer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 159,
+      "question": "What is the primary purpose of using encryption at rest in cloud storage?",
+      "options": [
+        "To prevent unauthorized access to cloud resources",
+        "To optimize cloud resource utilization",
+        "To automate software deployment processes",
+        "To protect data stored in cloud storage from unauthorized access"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 160,
+      "question": "Which security control is used to monitor and analyze user activities and access patterns in cloud environments?",
+      "options": [
+        "Security information and event management (SIEM)",
+        "Intrusion detection systems (IDS)",
+        "Multi-factor authentication (MFA)",
+        "Role-based access control (RBAC)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 161,
+      "question": "What is the primary goal of data loss prevention (DLP) solutions in cloud environments?",
+      "options": [
+        "To prevent unauthorized access to cloud resources",
+        "To monitor and control data movement within and outside the organization",
+        "To optimize cloud resource utilization",
+        "To automate software deployment processes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 162,
+      "question": "What security measure can help prevent unauthorized access to cloud resources through stolen or compromised credentials?",
+      "options": [
+        "Intrusion detection systems (IDS)",
+        "Multi-factor authentication (MFA)",
+        "Data encryption at rest",
+        "Network segmentation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 163,
+      "question": "Which cloud service model provides the highest level of abstraction and requires the least management effort by customers?",
+      "options": [
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)",
+        "Function as a Service (FaaS)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 164,
+      "question": "What is the main advantage of using a one-time pad (OTP) encryption scheme?",
+      "options": [
+        "OTP encryption provides perfect secrecy",
+        "OTP encryption is computationally efficient",
+        "OTP encryption requires smaller key sizes",
+        "OTP encryption is resistant to brute-force attacks"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 165,
+      "question": "What is a key benefit of using containerization in cloud environments?",
+      "options": [
+        "Improved hardware utilization",
+        "Enhanced network security",
+        "Simplified application deployment",
+        "Reduced data transfer costs"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 166,
+      "question": "Which encryption algorithm is commonly used to protect data in transit between cloud services and users' devices?",
+      "options": [
+        "AES (Advanced Encryption Standard)",
+        "RSA (Rivest-Shamir-Adleman)",
+        "DES (Data Encryption Standard)",
+        "MD5 (Message Digest Algorithm 5)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 167,
+      "question": "What is the main problem with assigning static privileges to administrative users on a database?",
+      "options": [
+        "Security is dependent upon the login process",
+        "Administrative users may forget their privileges",
+        "Static privileges are more expensive to implement",
+        "Static privileges may not provide enough access"
+      ],
+      "answer": 0
+    }
+  ]
+}
