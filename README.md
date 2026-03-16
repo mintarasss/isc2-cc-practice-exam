@@ -17,6 +17,16 @@ Browser-based practice exam for the **ISC2 Certified in Cybersecurity (CC)** cer
 - **Test history** — all attempts saved in localStorage with expandable details
 - **Fully offline** — no backend, no dependencies, just HTML/CSS/JS
 
+## Question Distribution
+
+| Domain | Questions | % of Total |
+|--------|-----------|------------|
+| D1: Security Principles | 38 | 23% |
+| D2: BC/DR/IR | 17 | 10% |
+| D3: Access Controls | 30 | 18% |
+| D4: Network Security | 47 | 28% |
+| D5: Security Operations | 32 | 19% |
+
 ## Getting Started
 
 ```bash
